@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(6, 100px);
+    gap: 2rem;
+}
+
+.grid-item{
+    height: 80vh;
+    background-color: darkcyan;
+    box-shadow: 0 0 15px grey;
+    border-radius: 10rem 0 10rem 0;
+}
+
+.item2, .item5{
+    height: 60vh;
+}
+
+.item1, .item6{
+    height: 40vh;
+}
