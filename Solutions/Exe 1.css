@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.card{
+    width: 50%;
+    border: 2px solid lightgrey;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.card h2{
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.card p{
+    margin: 1rem 0;
+}
+
+.card button{
+    background-color: blanchedalmond;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
