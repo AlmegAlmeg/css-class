@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(-45deg, rgb(223, 104, 68), rgb(35, 156, 255));
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(143, 143, 143);
+}
