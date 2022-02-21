@@ -1,0 +1,18 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(-45deg, rgb(255, 111, 67), rgb(73, 182, 255));
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgb(114, 114, 114);
+}

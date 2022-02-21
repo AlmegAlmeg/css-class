@@ -1,0 +1,30 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg ,rgb(255, 239, 185), rgb(182, 182, 182));
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30vh;
+    text-align: center;
+    border: 3px solid lightgrey;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+h4{
+    font-size: 1.3em;
+}

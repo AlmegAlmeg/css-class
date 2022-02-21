@@ -1,0 +1,13 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tringle{
+    width: 0;
+    height: 0;
+    border-top: 300px solid rgb(62, 222, 243);
+    border-right: 300px solid transparent;
+}

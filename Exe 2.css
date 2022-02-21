@@ -1,0 +1,33 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid{
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(6, 100px);
+    gap: 2rem;
+}
+
+.grid .grid-item{
+    height: 80vh;
+    background-color: rgb(255, 209, 83);
+    border-radius: 30rem 0 30rem 0;
+    box-shadow: 0 0 10px rgb(128, 128, 128);
+}
+
+.grid .item2,
+.grid .item5{
+    height: 60vh;
+}
+
+.grid .item1,
+.grid .item6{
+    height: 40vh;
+}

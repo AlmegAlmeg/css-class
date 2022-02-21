@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.card{
+    width: 50%;
+    border: 2px solid lightgrey;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.card h2{
+    margin: 1rem 0;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.card p{
+    margin: 1rem 0;
+}
+
+button{
+    background-color: rgb(192, 255, 234);
+    border: 1px solid rgb(88, 88, 88);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
